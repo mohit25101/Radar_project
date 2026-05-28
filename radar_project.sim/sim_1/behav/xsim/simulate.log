@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+time=380000 sample=   1 corr=         -6 peak=          4
+time=385000 sample=   1 corr=          3 peak=          4
+time=425000 sample=   1 corr=          1 peak=          4
+time=435000 sample=   1 corr=         -1 peak=          4
+time=445000 sample=   1 corr=          7 peak=          4
+time=455000 sample=   1 corr=         -1 peak=          7
+time=465000 sample=   1 corr=          5 peak=          7
+time=475000 sample=   1 corr=          1 peak=          7
+$stop called at time : 480 ns : File "C:/Users/DELL/OneDrive/Desktop/vivado_projects/radar_project/radar_project.srcs/sim_1/new/tb_radar.sv" Line 78
