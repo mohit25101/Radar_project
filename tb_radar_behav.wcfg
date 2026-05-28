@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_radar_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_radar" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="276.115 ns"></ZoomStartTime>
+      <ZoomEndTime time="363.816 ns"></ZoomEndTime>
+      <Cursor1Time time="362.615 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_radar/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/sample_in" type="array">
+      <obj_property name="ElementShortName">sample_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/corr_out" type="array">
+      <obj_property name="ElementShortName">corr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">corr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/peak" type="array">
+      <obj_property name="ElementShortName">peak[31:0]</obj_property>
+      <obj_property name="ObjectShortName">peak[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/data_read" type="array">
+      <obj_property name="ElementShortName">data_read[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radar/sample_memory" type="array">
+      <obj_property name="ElementShortName">sample_memory[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_memory[0:255][7:0]</obj_property>
+   </wvobject>
+</wave_config>
